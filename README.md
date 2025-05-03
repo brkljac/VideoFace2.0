@@ -230,6 +230,7 @@ ___
   
 </div>
 
+<br />
 
 &nbsp;&nbsp; **3. Bottom right:** Mouth region extraction for the selected person:
 
