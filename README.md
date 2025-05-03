@@ -155,7 +155,7 @@ ___
 
 <br />
 
-• **Face ReID ablation experiments**, side-by-side comparison
+• **Face ReID ablation experiments**, side-by-side comparison:
 
 &nbsp;&nbsp; ▶️[**testVideo1 face ReID ablation experiments**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -174,7 +174,7 @@ ___
 
 <br />
 
-• **Face video story**
+• **Face video story:**
 
 &nbsp;&nbsp; ▶️[**testVideo1 face video story**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -182,7 +182,7 @@ ___
 
 <br />
 
-• **Mouth region video story**
+• **Mouth region video story:**
 
 &nbsp;&nbsp; ▶️[**testVideo1 mouth region video story**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -238,7 +238,7 @@ ___
 
 <br />
 
-• **Face ReID ablation experiments**, side-by-side comparison
+• **Face ReID ablation experiments**, side-by-side comparison:
 
 &nbsp;&nbsp; ▶️[**testVideo2 face ReID ablation experiments**](https://youtu.be/QCB-hkVFjjY?si=cu6zjae_ClA_jZ7P)
 
@@ -260,7 +260,7 @@ ___
 &nbsp;&nbsp; [![Watch the testVideo3 face ReID results](./readmeFiles/testVideo3_results.jpg)](TBA)
 
 
-• **Face ReID ablation experiments**, side-by-side comparison
+• **Face ReID ablation experiments**, side-by-side comparison:
 
 &nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](TBA)
 
