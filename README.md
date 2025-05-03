@@ -37,7 +37,7 @@ _Main characteristics include:_
 
 * **Fast post production of video stories** based on the results of video analysis stored in the corresponding log-file: single run of face ReID producing multiple outputs
 
-* Modular and independent of the specific choice of methods for each of the components in _Algorithm 1_ (face detection and face recognition models)
+* Modular and independent of the specific choice of methods for each of the components in _Algorithm&nbsp;1_ (face detection and face recognition models)
 
 * Succesfully tested on **open-set face ReID in open-world** indoor and outdoor scenes 
 
@@ -115,7 +115,7 @@ ___
 
 &nbsp;&nbsp; ![Image Link](./readmeFiles/onScreenPresence.png)
 
-&nbsp;&nbsp; **(e)** on screen presence of all 23 identities found by VideoFace2.0 in _testVideo2_ in case of full _Algorithm 1_ - the proposed face ReID procedure corresponding to the the best face ReID result shown in the lower right part of abalation experiments visualization in **(d)**.
+&nbsp;&nbsp; **(e)** on screen presence of all 23 identities found by VideoFace2.0 in _testVideo2_ in case of full _Algorithm&nbsp;1_ - the proposed face ReID procedure corresponding to the the best face ReID result shown in the lower right part of abalation experiments visualization in **(d)**.
 
 
 ### Proposed generic face ReID procedure:
@@ -145,7 +145,7 @@ In the following are image previews and individual YouTube™ links of some of t
 ___
 ## testVideo1
 
-● **Face ReID results** based on full _Algorithm 1_ with parameters set to: $\sigma_h=0.6$, $\tau_d=0.4$, $\tau=0.8$, and $t_{min}=60$ frames*:
+• **Face ReID results** based on full _Algorithm&nbsp;1_ with parameters set to: $\sigma_h=0.6$, $\tau_d=0.4$, $\tau=0.8$, and $t_{min}=60$ frames*:
 
 &nbsp;&nbsp; ▶️[**testVideo1 face ReID results**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -155,7 +155,7 @@ ___
 
 <br />
 
-● **Face ReID ablation experiments**, side-by-side comparison
+• **Face ReID ablation experiments**, side-by-side comparison
 
 &nbsp;&nbsp; ▶️[**testVideo1 face ReID ablation experiment**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -169,12 +169,12 @@ ___
 
 &nbsp;&nbsp;&nbsp;&nbsp; 3. **Lower left** - detection + recognition + passive tracker filtering + detection confidence score
 
-&nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right** - detection + recognition + passive tracker filtering + detection confidence score + temporal post filtering (proposed _Algorithm 1_)
+&nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right** - detection + recognition + passive tracker filtering + detection confidence score + temporal post filtering (proposed _Algorithm&nbsp;1_)
 
 
 <br />
 
-● **Face video story**
+• **Face video story**
 
 &nbsp;&nbsp; ▶️[**testVideo1 face video story**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -182,7 +182,7 @@ ___
 
 <br />
 
-● **Mouth region video story**
+• **Mouth region video story**
 
 &nbsp;&nbsp; ▶️[**testVideo1 mouth region video story**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
@@ -195,7 +195,7 @@ ___
 ## testVideo2
 
 
-● **Face ReID results** based on full _Algorithm 1_ (with same set of parameters as for _testVideo1_):
+• **Face ReID results** based on full _Algorithm&nbsp;1_ (with same set of parameters as for _testVideo1_):
 
 &nbsp;&nbsp; ▶️[**testVideo2 face ReID results**](TBA)
 
@@ -203,7 +203,7 @@ ___
 
 <br />
 
-● **Face ReID results together with face and mouth region extraction** (side-by-side) for the selected person identified as "person30":
+• **Face ReID results together with face and mouth region extraction** (side-by-side) for the selected person identified as "person30":
  
 
 &nbsp;&nbsp; ▶️[**testVideo2 person30 face ReID with face and mouth region extraction**](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
@@ -227,6 +227,7 @@ ___
 
 <div style="text-indent: -2em; padding-left: 4em;">
   &nbsp;&nbsp; &nbsp;&nbsp; * MAX-scaled: Face image is only positioned next to the AVG-scaled version (original image without scaling). Shown face video dimensions correspond to face appearance with maximum width and height in the original video.
+  
 </div>
 
 
@@ -236,7 +237,7 @@ ___
 
 <br />
 
-● **Face ReID ablation experiments**, side-by-side comparison
+• **Face ReID ablation experiments**, side-by-side comparison
 
 &nbsp;&nbsp; ▶️[**testVideo2 face ReID ablation experiment**](https://youtu.be/QCB-hkVFjjY?si=cu6zjae_ClA_jZ7P)
 
@@ -251,14 +252,14 @@ ___
 ## testVideo3
 
 
-● **Face ReID results** (with same set of parameters as for _testVideo1_):
+• **Face ReID results** (with same set of parameters as for _testVideo1_):
 
 &nbsp;&nbsp; ▶️[**testVideo3 face ReID results**](TBA)
 
 &nbsp;&nbsp; [![Watch the testVideo3 face ReID results](./readmeFiles/testVideo3_results.jpg)](TBA)
 
 
-● **Face ReID ablation experiments**, side-by-side comparison
+• **Face ReID ablation experiments**, side-by-side comparison
 
 &nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](TBA)
 
