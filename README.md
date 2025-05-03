@@ -97,15 +97,15 @@ ___
 
 <br />
 
-&nbsp;&nbsp; <img src="././readmeFiles/faceVideoStory.jpg" width=30% height=30%>
+&nbsp;&nbsp; <img src="././readmeFiles/faceVideoStory.jpg" width=40% height=40%>
 
 &nbsp;&nbsp; **(a)** face region video story; 
 
-&nbsp;&nbsp; <img src="./readmeFiles/mouthVideoStory.jpg" width=30% height=30%>
+&nbsp;&nbsp; <img src="./readmeFiles/mouthVideoStory.jpg" width=40% height=40%>
 
 &nbsp;&nbsp; **(b)** mouth region video story; 
 
-&nbsp;&nbsp; <img src="./readmeFiles/faceIdentityMismatch.jpg" width=75% height=75%>
+&nbsp;&nbsp; <img src="./readmeFiles/faceIdentityMismatch.jpg" width=80% height=80%>
 
 &nbsp;&nbsp; **(c)** face identity mismatch;
 
@@ -157,9 +157,9 @@ ___
 
 • **Face ReID ablation experiments**, side-by-side comparison
 
-&nbsp;&nbsp; ▶️[**testVideo1 face ReID ablation experiment**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
+&nbsp;&nbsp; ▶️[**testVideo1 face ReID ablation experiments**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
-&nbsp;&nbsp; [![Watch the testVideo1 face ReID ablation experiment](./readmeFiles/testVideo1_ablationExperiments.gif)](https://youtu.be/Xpwi_22ckrs?si=3VxzqYYFsnEGvwl-)
+&nbsp;&nbsp; [![Watch the testVideo1 face ReID ablation experiments](./readmeFiles/testVideo1_ablationExperiments.gif)](https://youtu.be/Xpwi_22ckrs?si=3VxzqYYFsnEGvwl-)
 
 &nbsp;&nbsp; Experiments are numbered 1-4 and consist of:
  
@@ -239,9 +239,9 @@ ___
 
 • **Face ReID ablation experiments**, side-by-side comparison
 
-&nbsp;&nbsp; ▶️[**testVideo2 face ReID ablation experiment**](https://youtu.be/QCB-hkVFjjY?si=cu6zjae_ClA_jZ7P)
+&nbsp;&nbsp; ▶️[**testVideo2 face ReID ablation experiments**](https://youtu.be/QCB-hkVFjjY?si=cu6zjae_ClA_jZ7P)
 
-&nbsp;&nbsp; [![Watch the testVideo2 face ReID ablation experiment](./readmeFiles/testVideo2_ablationExperiments.gif)](https://youtu.be/QCB-hkVFjjY?si=cu6zjae_ClA_jZ7P)
+&nbsp;&nbsp; [![Watch the testVideo2 face ReID ablation experiments](./readmeFiles/testVideo2_ablationExperiments.gif)](https://youtu.be/QCB-hkVFjjY?si=cu6zjae_ClA_jZ7P)
 
 
 
@@ -263,7 +263,7 @@ ___
 
 &nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](TBA)
 
-&nbsp;&nbsp; [![Watch the testVideo3 face ReID ablation experiment](./readmeFiles/testVideo3_ablationExperiments.gif)](TBA)
+&nbsp;&nbsp; [![Watch the testVideo3 face ReID ablation experiments](./readmeFiles/testVideo3_ablationExperiments.gif)](TBA)
 
 
 ___
