@@ -163,13 +163,13 @@ ___
 
 &nbsp;&nbsp; Experiments are numbered 1-4 and consist of:
  
-&nbsp;&nbsp;&nbsp;&nbsp; 1. **Upper left**  - detection + recognition
+&nbsp;&nbsp;&nbsp;&nbsp; 1. **Upper left:** detection + recognition
 
-&nbsp;&nbsp;&nbsp;&nbsp; 2. **Upper right** - detection + recognition + passive tracker filtering
+&nbsp;&nbsp;&nbsp;&nbsp; 2. **Upper right:** detection + recognition + passive tracker filtering
 
-&nbsp;&nbsp;&nbsp;&nbsp; 3. **Lower left** - detection + recognition + passive tracker filtering + detection confidence score
+&nbsp;&nbsp;&nbsp;&nbsp; 3. **Lower left:** detection + recognition + passive tracker filtering + detection confidence score
 
-&nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right** - detection + recognition + passive tracker filtering + detection confidence score + temporal post filtering (proposed _Algorithm&nbsp;1_)
+&nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right:** detection + recognition + passive tracker filtering + detection confidence score + temporal post filtering (proposed _Algorithm&nbsp;1_)
 
 
 <br />
@@ -212,11 +212,11 @@ ___
 
 &nbsp;&nbsp; Video consists of 3 parts:
 
-&nbsp;&nbsp; **1. Left side:** Face re-identification (ReID) results:
+&nbsp;&nbsp; **1. Left side:** Face re-identification (ReID) results.
 
 &nbsp;&nbsp; &nbsp;&nbsp; Video shows all persons that have been identified as present together (in the same frame) with the selected "person30": their bounding boxes, person IDs and face landmark points.  
 
-&nbsp;&nbsp; **2. Top right:** Zoomed-in face image regions for the selected person:
+&nbsp;&nbsp; **2. Top right:** Zoomed-in face image regions for the selected person.
 
 &nbsp;&nbsp; &nbsp;&nbsp; Video part contains face images of "person30" cropped to face detection bounding box and:
 
@@ -232,7 +232,7 @@ ___
 
 <br />
 
-&nbsp;&nbsp; **3. Bottom right:** Mouth region extraction for the selected person:
+&nbsp;&nbsp; **3. Bottom right:** Mouth region extraction for the selected person.
 
 &nbsp;&nbsp; &nbsp;&nbsp; Video part interpretation is the same as in the case of face image regions described in the previous point 2.
 
