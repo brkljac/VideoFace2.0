@@ -299,8 +299,8 @@ ___
     title = {Transforming faces into video stories - {VideoFace2.0}},
     booktitle = {Preprint submitted to the 14\textsuperscript{th} Mediterranean Conference on Embedded Computing (MECO), Budva, Montenegro},
     volume = {1},
-    pages = {10--14},   
-    month = {June},
+    pages = {1--4},   
+    month = {10--14 June},
     year = {2025},
     doi = {-}
     }
