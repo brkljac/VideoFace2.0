@@ -151,7 +151,6 @@ ___
 
 &nbsp;&nbsp; [![Watch the testVideo1 face ReID results](./readmeFiles/testVideo1_results.jpg)](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
-&nbsp;&nbsp; $^{\text{*}}$ Note that the $t_{min} \approx 0$ should be used in the case of real-time operation
 
 <br />
 
@@ -172,7 +171,11 @@ ___
 &nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right:** detection + recognition + passive tracker filtering + detection confidence score + temporal post filtering (proposed _Algorithm&nbsp;1_)
 
 
+&nbsp;&nbsp; $^{\text{*}}$ Note that the introduced $t_{min}$ delay in new identity approval only affects initial appearance of new identities, but does not affect ReID of the identities already present in the gallery (real-time operation after the new identity is approved as valid). Therefore, it could be replaced by a more complex ReID decision rule, which would have the same role as the introduced post filtering. In case of the need for immediate appearance of new identities in real-time operation, $t_{min} \approx 0$ should be used.
+
+
 <br />
+
 
 • **Face video story:**
 
