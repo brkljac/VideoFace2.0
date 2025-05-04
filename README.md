@@ -145,7 +145,7 @@ In the following are image previews and individual YouTube™ links of some of t
 ___
 ## testVideo1
 
-• **Face ReID results** based on full _Algorithm&nbsp;1_ with parameters set to: $\sigma_h=0.6$, $\tau_d=0.4$, $\tau=0.8$, and $t_{min}=60$ frames*:
+• **Face ReID results** based on full _Algorithm&nbsp;1_ with parameters set to: $\sigma_h=0.6$, $\tau_d=0.6$, $\tau=0.8$, and $t_{min}=60$ frames*:
 
 &nbsp;&nbsp; ▶️[**testVideo1 face ReID results**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
 
