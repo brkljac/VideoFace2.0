@@ -18,7 +18,7 @@ $^{\text{§}}$ equal contribution
 Face detection and face recognition have been in the focus of vision community since the very beginnings. Inspired by the success of the original Videoface digitizer, a pioneering device that allowed users to capture video signals from any source, we have designed an advanced video analytics tool to efficiently create structured video stories, i.e. identity-based information catalogs. VideoFace2.0 is the name of the developed system for spatial and temporal localization of each unique face in the input video, i.e. face re-identification (ReID), which also allows their cataloging, characterization and creation of structured video outputs for later downstream tasks. Developed near real-time solution is primarily designed to be utilized in application scenarios involving TV production, media analysis, and as an efficient tool for creating large video datasets necessary for training machine learning (ML) models in challenging vision tasks such as lip reading and multimodal speech recognition. Conducted experiments confirm applicability of the proposed face ReID algorithm that is combining the concepts of face detection, face recognition and passive tracking-by-detection in order to achieve robust and efficient face ReID. The system is envisioned as a compact and modular extensions of the existing video production equipment. Presented results are based on test implementation that achieves between 18-25 fps on consumer type notebook. Ablation experiments also confirmed that the proposed algorithm brings relative gain in the reduction of number of false identities in the range of 73\%-93\%. We hope that the presented work and shared code will stimulate further interest in development of similar, application specific video analysis tools, and lower the entry barrier for production of high-quality multi-modal ML datasets in the future.
 
 
-[**original Videoface device**](https://en.wikipedia.org/wiki/Videoface)
+[**Original Videoface device**](https://en.wikipedia.org/wiki/Videoface)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Videoface.jpg" alt="Original Videoface device" width="240"/>
 
@@ -33,33 +33,33 @@ code TBA ...
 
 ___
 
-_Main characteristics include:_
+✅ _Main characteristics include:_
 
 * **Near real-time operation with ~ 18-25 fps** (consumer type notebook with GPU)
 
 * **On-line or off-line processing mode** with different types of results visulaizations
 
-* **Detailed log-file of face identities** found by the system. Suitable for video cataloging and spatial-temporal localization of each face image in which the same person appears
+🔍 * **Detailed log-file of face identities** found by the system. Suitable for video cataloging and spatial-temporal localization of each face image in which the same person appears
 
 * **Fast post production of video stories** based on the results of video analysis stored in the corresponding log-file: single run of face ReID producing multiple outputs
 
 * Modular and independent of the specific choice of methods for each of the components in _Algorithm&nbsp;1_ (face detection and face recognition models)
 
-* Succesfully tested on **open-set face ReID in open-world** indoor and outdoor scenes 
+⚡ * Succesfully tested on **open-set face ReID in open-world** indoor and outdoor scenes 
 
 ___
 
-_Main applications include:_
+✅ _Main applications include:_
 
 * **TV production, media analysis and creative industries.**
 
-* Production of custom **video-based datasets for machine learning (ML) tasks** involving multi-modal inputs like speech, text and image.
+⭐ * Production of custom **video-based datasets for machine learning (ML) tasks** involving multi-modal inputs like speech, text and image.
 
 * Automated **video analysis and cataloging.**
 
-* Production of **structured video outputs or video stories.**
+⭐ * Production of **structured video outputs or video stories.**
 
-* **Editing of interviews or reportages**, talk-shows, podcasts and other formats that include multiple speakers or participants.
+🔨 * **Editing of interviews or reportages**, talk-shows, podcasts and other formats that include multiple speakers or participants.
 
 ___
 
