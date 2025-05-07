@@ -23,10 +23,11 @@ Face detection and face recognition have been in the focus of vision community s
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Videoface.jpg" alt="Original Videoface device" width="240"/>
 
 
-####  For more information, please check our conference publication on the link below
+###  For more information, please check our conference publication on the link below
 
 
-Publication preprint available at: [![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
+📄 Publication preprint available at: [![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
+
 
 code TBA ...
 
@@ -181,7 +182,7 @@ Video demonstrations of VideoFace2.0 functionalities are available on the follow
 
 - Presented experiments include 3 specific test videos with challenging face ReID situations and scene environments characteristic for the above mentioned application scenarios.
 
-In the following are image previews and individual YouTube™ links of some of the conducted experiments.
+🔦 In the following are image previews and individual YouTube™ links of some of the conducted experiments.
 
 <br />
 
