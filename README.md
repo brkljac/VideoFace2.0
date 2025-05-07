@@ -8,7 +8,7 @@ $^{\text{§}}$ equal contribution
 
 <br />
 
-![Image Link](./readmeFiles/VideoFace2.0.png)
+![VideoFace 2.0 processing workflow and applications](./readmeFiles/VideoFace2.0.png)
 
 <br />
 
@@ -19,6 +19,8 @@ Face detection and face recognition have been in the focus of vision community s
 
 
 [**original Videoface device**](https://en.wikipedia.org/wiki/Videoface)
+
+![original Videoface device](https://en.wikipedia.org/wiki/Videoface#/media/File:Videoface.jpg)
 
 ####  For more information, please check our conference publication on the link below
 
