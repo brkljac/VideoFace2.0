@@ -343,7 +343,7 @@ Original _testVideo2_ and _testVideo3_ are avaialble on the following links unde
 
 Presented implementation and experimental results are based on the pre-trained face detection and face recognition models kindly provided by the [InsightFace project](https://github.com/deepinsight/insightface) - State-of-the-art 2D and 3D face analysis.
   
-VideoFace2.0 is released under the MIT License terms in the provided LICENSE file.
+**VideoFace2.0** is released under the MIT License terms in the provided LICENSE file.
 
 
 ___
