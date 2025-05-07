@@ -305,13 +305,6 @@ ___
 &nbsp;&nbsp; [![Watch the testVideo3 face ReID results](./readmeFiles/testVideo3_results.jpg)](https://youtu.be/dI42b5R1mWo?si=8VJ4kkA3XrAtPH20)
 
 
-• **Face ReID ablation experiments**, side-by-side comparison:
-
-&nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](https://youtu.be/wQZrI2MP7Zo?si=t4AWy4ym6KvoHCSK)
-
-&nbsp;&nbsp; [![Watch the testVideo3 face ReID ablation experiments](./readmeFiles/testVideo3_ablationExperiments.gif)](https://youtu.be/wQZrI2MP7Zo?si=t4AWy4ym6KvoHCSK)
-
-
 <br />
 
 • **Face re-identification results together with landmark points, face and mouth region extraction** (side-by-side) for the selected person identified as "person1":
@@ -321,6 +314,16 @@ ___
 
 [![Watch the testVideo3 "person1" video stories](./readmeFiles/testVideo3_person_and_face_mouth_region_video_stories.jpg)](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
  
+
+<br />
+
+• **Face ReID ablation experiments**, side-by-side comparison:
+
+&nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](https://youtu.be/wQZrI2MP7Zo?si=t4AWy4ym6KvoHCSK)
+
+&nbsp;&nbsp; [![Watch the testVideo3 face ReID ablation experiments](./readmeFiles/testVideo3_ablationExperiments.gif)](https://youtu.be/wQZrI2MP7Zo?si=t4AWy4ym6KvoHCSK)
+
+
  
 
 ___
