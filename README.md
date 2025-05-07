@@ -370,7 +370,6 @@ ___
 
 
 [2] Brkljač, B., Kalušev, V., Popović, B., Sečujski, M. (**2025**). **Transforming faces into video stories - VideoFace2.0**. arXiv preprint [**arXiv:2505.02060**](https://arxiv.org/abs/2505.02060)
-[![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
 
 <pre><code>
       @misc{brkljac2025transformingfacesvideostories,
@@ -384,6 +383,7 @@ ___
       doi={10.48550/arXiv.2505.02060} 	  
 }
 </code></pre>
+[![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
 
 
 <br />
