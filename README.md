@@ -182,7 +182,7 @@ Video demonstrations of VideoFace2.0 functionalities are available on the follow
 
 - Presented experiments include 3 specific test videos with challenging face ReID situations and scene environments characteristic for the above mentioned application scenarios.
 
-🔦 In the following are image previews and individual YouTube™ links of some of the conducted experiments.
+💡 In the following are image previews and individual YouTube™ links of some of the conducted experiments.
 
 <br />
 
