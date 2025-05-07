@@ -3,8 +3,6 @@
 
 ### Authors: Branko Brkljač $^{\text{§}}$, Vladimir Kalušev $^{\text{§}}$, Branislav Popović and Milan Sečujski
 
-code and publication preprint TBA ...
-
 $^{\text{§}}$ equal contribution
 
 
@@ -17,12 +15,17 @@ $^{\text{§}}$ equal contribution
 
 ## Abstract
 
-Face detection and face recognition have been in the focus of vision community since the very beginnings. Inspired by the success of the original Videoface digitizer, a pioneering device that allowed users to capture video signals from any source, we have designed an advanced video analytics tool to efficiently create structured video stories, i.e. identity-based information catalogs. VideoFace2.0 is the name of the developed system for spatial and temporal localization of each unique face in the input video, i.e. face re-identification (ReID), which also allows their cataloging, characterization and creation of structured video outputs for later downstream tasks. Developed close to real-time solution is primarily designed to be utilized in application scenarios involving TV production, media analysis, and as an efficient tool for creating large video datasets necessary for training machine learning (ML) models in challenging vision tasks such as lip reading and multimodal speech recognition. Conducted experiments confirm applicability of the proposed face ReID algorithm that is combining the concepts of face detection, face recognition and passive tracking-by-detection in order to achieve robust and efficient face ReID. The system is envisioned as a compact and modular extensions of the existing video production equipment. We hope that the presented work and shared code will stimulate further interest in development of similar, application specific video analysis tools, and lower the entry barrier for production of high-quality multi-modal ML datasets in the future.
+Face detection and face recognition have been in the focus of vision community since the very beginnings. Inspired by the success of the original Videoface digitizer, a pioneering device that allowed users to capture video signals from any source, we have designed an advanced video analytics tool to efficiently create structured video stories, i.e. identity-based information catalogs. VideoFace2.0 is the name of the developed system for spatial and temporal localization of each unique face in the input video, i.e. face re-identification (ReID), which also allows their cataloging, characterization and creation of structured video outputs for later downstream tasks. Developed near real-time solution is primarily designed to be utilized in application scenarios involving TV production, media analysis, and as an efficient tool for creating large video datasets necessary for training machine learning (ML) models in challenging vision tasks such as lip reading and multimodal speech recognition. Conducted experiments confirm applicability of the proposed face ReID algorithm that is combining the concepts of face detection, face recognition and passive tracking-by-detection in order to achieve robust and efficient face ReID. The system is envisioned as a compact and modular extensions of the existing video production equipment. Presented results are based on test implementation that achieves between 18-25 fps on consumer type notebook. Ablation experiments also confirmed that the proposed algorithm brings relative gain in the reduction of number of false identities in the range of 73\%-93\%. We hope that the presented work and shared code will stimulate further interest in development of similar, application specific video analysis tools, and lower the entry barrier for production of high-quality multi-modal ML datasets in the future.
+
 
 [**original Videoface device**](https://en.wikipedia.org/wiki/Videoface)
 
 ####  For more information, please check our conference publication on the link below
 
+
+Publication preprint available at: [**arXiv:2505.02060**](https://arxiv.org/abs/2505.02060) 
+
+code TBA ...
 
 
 ___
@@ -68,7 +71,7 @@ ___
 
 - Produced "person30" video story alongside extracted face and mouth region  videos (side-by-side visualization):  
 
-▶️ [**testVideo2 --> person30 + face + mouth region video stories**](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
+▶️ [**testVideo2 --> "person30" + face + mouth region video stories**](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
 
 [![Watch the testVideo2 "person30" video story alongside extracted face and mouth region videos](./readmeFiles/testVideo2_person_and_face_mouth_region_video_stories.gif)](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
 
@@ -126,6 +129,43 @@ ___
 
 ___
 
+<br />
+
+## Table&nbsp;1 - Summary of ablation experiments
+
+### Reduction of false identities brought by _Algorithm&nbsp;1_ (relative gain $\gamma$)
+
+---
+| \# Number of found identities | exp 1 | exp 2 | exp 3 | exp 4 | true | $\gamma$ [%] | [m:s]  |
+|-------------|-------|-------|-------|-------|------|-------|--------|
+| testvideo1  | 50    | 42    | 30    | 7     | 4    | 83    | 02:44  |
+| testvideo2  | 421   | 378   | 263   | 23    | 13   | 93    | 07:25  |
+| testvideo3  | 39    | 37    | 25    | 9     | 6    | 73    | 18:45  |
+
+---
+
+**Table&nbsp;1 notes:**
+
+- $\exp i$, $i=1..4$, ablation experiments
+
+- $\gamma$, relative gain of _Algorithm&nbsp;1_ in terms of number of found identities in comaprison to other experiments, calculated as:  
+  $\gamma = (1- \exp4 /(\sum_{i=1}^{3}(\exp_i)/3))\times 100\%$`
+
+- exp 1: detection + recognition; 
+
+- exp 2: detection + recognition + passive tracker filtering of new identities
+
+- exp 2: detection + recognition + passive tracker filtering of new identities + detection confidence score
+
+- exp 4 (full _Algorithm&nbsp;1_): detection + recognition + passive tracker filtering of new identities + detection confidence score + temporal post filtering
+ 
+- "true", expected or true number of unique identities in each video. Number of distinct faces that are expected to be found by the system. Does not mean that these faces have significant on screen presence.
+ 
+- [m:s] indicates duration in minutes and seconds.
+
+
+___
+
 
 <br />
 
@@ -156,19 +196,19 @@ ___
 
 • **Face ReID ablation experiments**, side-by-side comparison:
 
-&nbsp;&nbsp; ▶️[**testVideo1 face ReID ablation experiments**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
+&nbsp;&nbsp; ▶️[**testVideo1 face ReID ablation experiments**](https://youtu.be/Xpwi_22ckrs?si=3VxzqYYFsnEGvwl-)
 
 &nbsp;&nbsp; [![Watch the testVideo1 face ReID ablation experiments](./readmeFiles/testVideo1_ablationExperiments.gif)](https://youtu.be/Xpwi_22ckrs?si=3VxzqYYFsnEGvwl-)
 
 &nbsp;&nbsp; Experiments are numbered 1-4 and consist of:
  
-&nbsp;&nbsp;&nbsp;&nbsp; 1. **Upper left:** detection + recognition
+&nbsp;&nbsp;&nbsp;&nbsp; 1. **Upper left:** detection + recognition (exp 1)
 
-&nbsp;&nbsp;&nbsp;&nbsp; 2. **Upper right:** detection + recognition + passive tracker filtering
+&nbsp;&nbsp;&nbsp;&nbsp; 2. **Upper right:** detection + recognition + passive tracker filtering of new identities (exp 2)
 
-&nbsp;&nbsp;&nbsp;&nbsp; 3. **Lower left:** detection + recognition + passive tracker filtering + detection confidence score
+&nbsp;&nbsp;&nbsp;&nbsp; 3. **Lower left:** detection + recognition + passive tracker filtering of new identities + detection confidence score (exp 3)
 
-&nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right:** detection + recognition + passive tracker filtering + detection confidence score + temporal post filtering (proposed _Algorithm&nbsp;1_)
+&nbsp;&nbsp;&nbsp;&nbsp; 4. **Lower right:** detection + recognition + passive tracker filtering of new identities + detection confidence score + temporal post filtering (proposed full _Algorithm&nbsp;1_, exp 4)
 
 
 &nbsp;&nbsp; $^{\text{*}}$ Note that the introduced $t_{min}$ delay in new identity approval only affects initial appearance of new identities, but does not affect ReID of the identities already present in the gallery (real-time operation after the new identity is approved as valid). Therefore, it could be replaced by a more complex ReID decision rule, which would have the same role as the introduced post filtering. In case of the need for immediate appearance of new identities in real-time operation, $t_{min} \approx 0$ should be used.
@@ -179,7 +219,7 @@ ___
 
 • **Face video story:**
 
-&nbsp;&nbsp; ▶️[**testVideo1 face video story**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
+&nbsp;&nbsp; ▶️[**testVideo1 face video story**](https://youtu.be/4kBuSA_oQH0?si=PGRFIqIjZq-gQ3mS)
 
 &nbsp;&nbsp; [![Watch the testVideo1 face video story](./readmeFiles/testVideo1_face_video_story.gif)](https://youtu.be/4kBuSA_oQH0?si=PGRFIqIjZq-gQ3mS)
 
@@ -187,7 +227,7 @@ ___
 
 • **Mouth region video story:**
 
-&nbsp;&nbsp; ▶️[**testVideo1 mouth region video story**](https://youtu.be/k_Jd-Xw4mDA?si=C-tikv-_U1D-dAPG)
+&nbsp;&nbsp; ▶️[**testVideo1 mouth region video story**](https://youtu.be/cdTt1KRJ4v0?si=L9O8wuHyRJitSI8E)
 
 &nbsp;&nbsp; [![Watch the testVideo1 mouth region video story](./readmeFiles/testVideo1_mouth_region_video_story.gif)](https://youtu.be/cdTt1KRJ4v0?si=L9O8wuHyRJitSI8E)
 
@@ -200,9 +240,9 @@ ___
 
 • **Face ReID results** based on full _Algorithm&nbsp;1_ (with same set of parameters as for _testVideo1_):
 
-&nbsp;&nbsp; ▶️[**testVideo2 face ReID results**](TBA)
+&nbsp;&nbsp; ▶️[**testVideo2 face ReID results**](https://youtu.be/h_tM-7HUlXc?si=aAnjR6Cu4mhQX5Jz)
 
-&nbsp;&nbsp; [![Watch the testVideo2 face ReID results](./readmeFiles/testVideo2_results.jpg)](TBA)
+&nbsp;&nbsp; [![Watch the testVideo2 face ReID results](./readmeFiles/testVideo2_results.jpg)](https://youtu.be/h_tM-7HUlXc?si=aAnjR6Cu4mhQX5Jz)
 
 <br />
 
@@ -258,17 +298,34 @@ ___
 
 • **Face ReID results** (with same set of parameters as for _testVideo1_):
 
-&nbsp;&nbsp; ▶️[**testVideo3 face ReID results**](TBA)
+&nbsp;&nbsp; ▶️[**testVideo3 face ReID results**](https://youtu.be/dI42b5R1mWo?si=8VJ4kkA3XrAtPH20)
 
-&nbsp;&nbsp; [![Watch the testVideo3 face ReID results](./readmeFiles/testVideo3_results.jpg)](TBA)
+&nbsp;&nbsp; [![Watch the testVideo3 face ReID results](./readmeFiles/testVideo3_results.jpg)](https://youtu.be/dI42b5R1mWo?si=8VJ4kkA3XrAtPH20)
 
 
 • **Face ReID ablation experiments**, side-by-side comparison:
 
-&nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](TBA)
+&nbsp;&nbsp; ▶️[**testVideo3 face ReID ablation experiments**](https://youtu.be/wQZrI2MP7Zo?si=t4AWy4ym6KvoHCSK)
 
-&nbsp;&nbsp; [![Watch the testVideo3 face ReID ablation experiments](./readmeFiles/testVideo3_ablationExperiments.gif)](TBA)
+&nbsp;&nbsp; [![Watch the testVideo3 face ReID ablation experiments](./readmeFiles/testVideo3_ablationExperiments.gif)](https://youtu.be/wQZrI2MP7Zo?si=t4AWy4ym6KvoHCSK)
 
+
+<br />
+
+• **Face re-identification results together with landmark points, face and mouth region extraction** (side-by-side) for the selected person identified as "person1":
+
+
+▶️ [**testVideo3 --> "person1" video story**](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
+
+[![Watch the testVideo3 "person1" video stories](./readmeFiles/testVideo2_person_and_face_mouth_region_video_stories.gif)](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
+ 
+
+&nbsp;&nbsp; ▶️[**testVideo3 Face re-identification, landmark points, face and mouth region extraction**](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
+
+&nbsp;&nbsp; [![Watch the testVideo3 "person1" face ReID with face and mouth region extraction](./readmeFiles/testVideo2_person_and_face_mouth_region_video_stories.jpg)](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
+
+
+ 
 
 ___
 
@@ -310,6 +367,24 @@ ___
     doi = {-}
     }
 </code></pre>
+
+
+[2] Brkljač, B., Kalušev, V., Popović, B., & Sečujski, M. (**2025**). **Transforming faces into video stories - VideoFace2.0**. arXiv preprint **arXiv:2505.02060**](https://arxiv.org/abs/2505.02060)
+[![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
+
+<pre><code>
+      @misc{brkljac2025transformingfacesvideostories,
+      title={Transforming faces into video stories - VideoFace2.0}, 
+      author={Branko Brkljač and Vladimir Kalušev and Branislav Popović and Milan Sečujski},
+      year={2025},
+      eprint={2505.02060},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.02060},
+      doi={10.48550/arXiv.2505.02060} 	  
+}
+</code></pre>
+
 
 <br />
 
