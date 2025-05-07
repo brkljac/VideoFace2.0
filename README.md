@@ -151,7 +151,7 @@ ___
 - $\exp i$, $i=1..4$, ablation experiments
 
 - $\gamma$, relative gain of _Algorithm&nbsp;1_ in terms of number of found identities in comaprison to other experiments, calculated as:  
-  $\gamma = (1- \exp4 /(\sum_{i=1}^{3}(\exp_i)/3))\times 100\%$`
+  $\gamma = (1- \exp4 /(\sum_{i=1}^{3}(\exp_i)/3))\times 100\%$
 
 - exp 1: detection + recognition; 
 
@@ -317,16 +317,10 @@ ___
 • **Face re-identification results together with landmark points, face and mouth region extraction** (side-by-side) for the selected person identified as "person1":
 
 
-▶️ [**testVideo3 --> "person1" video story**](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
+▶️ [**testVideo3 --> "person1" video story**](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
 
-[![Watch the testVideo3 "person1" video stories](./readmeFiles/testVideo2_person_and_face_mouth_region_video_stories.gif)](https://youtu.be/StD026TDRLY?si=OnFwenHjcIWD61MC)
+[![Watch the testVideo3 "person1" video stories](./readmeFiles/testVideo3_person_and_face_mouth_region_video_stories.jpg)](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
  
-
-&nbsp;&nbsp; ▶️[**testVideo3 Face re-identification, landmark points, face and mouth region extraction**](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
-
-&nbsp;&nbsp; [![Watch the testVideo3 "person1" face ReID with face and mouth region extraction](./readmeFiles/testVideo3_person_and_face_mouth_region_video_stories.jpg)](https://youtu.be/KsNaId9Au80?si=f-6y25JP89Ia_Pwf)
-
-
  
 
 ___
