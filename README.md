@@ -20,12 +20,13 @@ Face detection and face recognition have been in the focus of vision community s
 
 [**original Videoface device**](https://en.wikipedia.org/wiki/Videoface)
 
-![original Videoface device](https://en.wikipedia.org/wiki/Videoface#/media/File:Videoface.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Videoface.jpg" alt="Original Videoface device" width="240"/>
+
 
 ####  For more information, please check our conference publication on the link below
 
 
-Publication preprint available at: [**arXiv:2505.02060**](https://arxiv.org/abs/2505.02060) 
+Publication preprint available at: [![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
 
 code TBA ...
 
@@ -368,7 +369,7 @@ ___
 </code></pre>
 
 
-[2] Brkljač, B., Kalušev, V., Popović, B., & Sečujski, M. (**2025**). **Transforming faces into video stories - VideoFace2.0**. arXiv preprint **arXiv:2505.02060**](https://arxiv.org/abs/2505.02060)
+[2] Brkljač, B., Kalušev, V., Popović, B., Sečujski, M. (**2025**). **Transforming faces into video stories - VideoFace2.0**. arXiv preprint [**arXiv:2505.02060**](https://arxiv.org/abs/2505.02060)
 [![DOI:10.48550/arXiv.2505.02060](https://img.shields.io/badge/DOI-10.48550/arXiv.2505.02060-blue)](https://doi.org/10.48550/arXiv.2505.02060)
 
 <pre><code>
