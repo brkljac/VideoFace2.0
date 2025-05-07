@@ -20,7 +20,7 @@ Face detection and face recognition have been in the focus of vision community s
 
 [**Original Videoface device**](https://en.wikipedia.org/wiki/Videoface)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Videoface.jpg" alt="Original Videoface device" width="240"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Videoface.jpg" alt="Original Videoface device" width="240"/>
 
 
 ####  For more information, please check our conference publication on the link below
